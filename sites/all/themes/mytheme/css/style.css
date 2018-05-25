@@ -1,0 +1,422 @@
+/* NAV */
+.navbar.container,
+.navbar.container-fluid {
+  margin: 0px;
+  background-color: white;
+  border: none;
+}
+.navbar .navbar-collapse {
+  position: relative;
+  margin-right: 170px;
+}
+.navbar .menu {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.navbar .menu.secondary {
+  position: static;
+  float: left;
+}
+.navbar #block-search-form {
+  float: left;
+  padding-top: 5px;
+}
+.navbar .breadcrumb {
+  clear: both;
+  background-color: white;
+  position: absolute;
+  left: 30px;
+  bottom: 0px;
+}
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.navbar .navbar-header {
+  float: right;
+  position: relative;
+}
+.navbar .navbar-brand {
+  width: 80px;
+  text-align: right;
+  display: block;
+  position: absolute;
+  right: 85px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: auto;
+  padding: 0px;
+  line-height: 1.2;
+}
+@media (max-width: 767px) {
+  .navbar .navbar-header {
+    float: none;
+  }
+  body.toolbar .navbar.container,
+  body.toolbar .navbar.container-fluid {
+    padding-top: 40px;
+  }
+  .navbar ul.secondary {
+    float: none;
+  }
+}
+/* BODY + FOOTER */
+body.page-civicrm .full-container .page-header-container {
+  padding: 0px;
+  background: none;
+  color: #333;
+}
+.full-container .page-header-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ed1c8b;
+  color: white;
+}
+.full-container .page-header-container .page-header {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+.full-container .page-body-container {
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: #dadadc;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background-color: #dadadc;
+  border-color: #3c4242;
+  border-bottom-color: transparent;
+}
+.footer {
+  background-color: #3c4242;
+  color: white;
+  margin-top: 0px;
+}
+.field-name-civicrm-contact-products .block-title,
+#civicrm-contact-form, #user-profile-form,
+body.page-user .profile,
+.full-container .innersec {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+@media (max-width: 767px) {
+  .field-name-civicrm-contact-products .block-title,
+  #civicrm-contact-form, #user-profile-form,
+  body.page-user .profile,
+  .full-container .innersec {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .field-name-civicrm-contact-products .block-title,
+  #civicrm-contact-form, #user-profile-form,
+  body.page-user .profile,
+  .full-container .innersec {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+body.page-user .profile .label {
+  color: #222;
+}
+/*** ARTICLE ***/
+body.node-type-article .full-container .page-body-container .page-body-img-overlay {
+  position: absolute;
+  top: 250px;
+  left: 0px;
+  right: 0px;
+  transform: translateY(-100%);
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid #ddd;
+}
+body.node-type-article .full-container .page-body-container .page-body-img-overlay .tabs--primary {
+  margin-bottom: 0px;
+  border-bottom: none;
+}
+body.node-type-article .full-container article {
+  position: relative;
+  padding-top: 260px;
+}
+body.node-type-article .full-container article .field-name-field-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 250px;
+}
+body.node-type-article .full-container article .field-name-field-image .field-items,
+body.node-type-article .full-container article .field-name-field-image .field-item {
+  height: 100%;
+}
+body.node-type-article .full-container article .field-name-field-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+/** sidebars **/
+body.sidebar-first .main-container,
+body.sidebar-second .main-container {
+  display: flex;
+  flex-direction: row;
+}
+body.sidebar-first .content-section,
+body.sidebar-second .content-section {
+  flex-grow: 1;
+}
+body.sidebar-first #page-header,
+body.sidebar-second #page-header {
+  display: none;
+}
+aside.sidebar-first {
+  max-width: 250px;
+  margin-right: 15px;
+}
+aside.sidebar-second {
+  max-width: 250px;
+  margin-left: 15px;
+}
+
+
+
+/* designer-makers */
+.view-designer-makers .item-cntr {
+  margin-top: 20px;
+  text-align: center;
+}
+.view-designer-makers .item {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 3px;
+  width: 350px;
+  max-width: 90%;
+  text-align: left;
+  background-color: white;
+}
+.view-designer-makers .item-cntr .text {
+  padding: 20px;
+  font-size: 120%;
+  font-weight: bold;
+}
+.view-designer-makers {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+@media (max-width: 960px) {
+  .view-designer-makers {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+.find-designer-maker-filter {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px;
+  background-color: white;
+}
+
+/* featured designer maker  */
+.view-featured-designer-maker {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.view-featured-designer-maker:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.view-featured-designer-maker .image-cntr {
+  float: left;
+  padding-right: 15px;
+}
+.view-featured-designer-maker .name {
+  font-size: 140%;
+  font-weight: bold;
+}
+.view-featured-designer-maker .tags {
+  font-size: 120%;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.view-featured-designer-maker .bio {
+  margin-top: 10px;
+  font-size: 110%;
+  line-height: 1.3;
+}
+@media (max-width: 768px) {
+  .view-featured-designer-maker .image-cntr {
+    float: none;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .view-featured-designer-maker .image-cntr img {
+    display: inline-block;
+  }
+}
+
+/* single designer maker */
+.cc-designer-maker .about-label,
+.cc-designer-maker .bio-label {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.cc-designer-maker.ds-2col-stacked > .group-header {
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+.cc-designer-maker.ds-2col-stacked > .group-header,
+.cc-designer-maker.ds-2col-stacked > .group-left,
+.cc-designer-maker.ds-2col-stacked > .group-right {
+  background-color: white;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background-color: white;
+}
+.cc-designer-maker.ds-2col-stacked > .group-left {
+  width: auto;
+  padding-left: 65px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+.cc-designer-maker.ds-2col-stacked > .group-left img {
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.cc-designer-maker.ds-2col-stacked > .group-right {
+  width: auto;
+  float: none;
+  padding-top: 15px;
+  padding-left: 280px;
+  padding-right: 315px;
+  padding-bottom: 30px;
+  min-height: 250px;
+}
+@media (max-width: 768px) {
+  .cc-designer-maker.ds-2col-stacked > .group-left {
+    float: none;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .cc-designer-maker.ds-2col-stacked > .group-right {
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .cc-designer-maker.ds-2col-stacked > .group-left {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .cc-designer-maker.ds-2col-stacked > .group-right {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* single designer maker, header section */
+body.page-civicrm-contact:not(.page-civicrm-contact-edit):not(.page-civicrm) .full-container .page-body-container .page-body-img-overlay {
+  position: absolute;
+  top: 280px;
+  left: 0px;
+  right: 0px;
+  transform: translateY(-100%);
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid #ddd;
+}
+body.page-civicrm-contact:not(.page-civicrm-contact-edit):not(.page-civicrm) .full-container .page-body-container .page-body-img-overlay .tabs--primary {
+  margin-bottom: 0px;
+  border-bottom: none;
+}
+body.page-civicrm-contact:not(.page-civicrm-contact-edit):not(.page-civicrm) .full-container .region-content {
+  position: relative;
+  padding-top: 280px;
+}
+body.page-civicrm-contact:not(.page-civicrm-contact-edit):not(.page-civicrm) .full-container .region-content .field-name-contact-cover-image-url {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 280px;
+}
+body.page-civicrm-contact:not(.page-civicrm-contact-edit):not(.page-civicrm) .full-container .region-content .field-name-contact-cover-image-url .field-items,
+body.page-civicrm-contact:not(.page-civicrm-contact-edit):not(.page-civicrm) .full-container .region-content .field-name-contact-cover-image-url .field-item {
+  height: 100%;
+}
+body.page-civicrm-contact:not(.page-civicrm-contact-edit):not(.page-civicrm) .full-container .region-content .field-name-contact-cover-image-url img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* tags */
+.field-name-field-cc-contact-tags .field,
+.field-name-field-cc-contact-tags .field-items,
+.field-name-field-cc-contact-tags .field-item {
+  display: inline-block;
+}
+.field-name-field-cc-contact-tags .tag-name {
+  margin-right: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #333;
+  font-size: 110%;
+  font-weight: bold;
+}
+.field-name-field-cc-contact-tags > .field-items > .field-item:last-child .tag-name,
+.field-name-field-cc-contact-tags > .field:last-child .tag-name {
+  border-right: none;
+}
+
+/* product view */
+.field-name-civicrm-contact-products .block-title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.product-cntr {
+  display: block;
+  text-align: center;
+}
+.product-cntr .item-block {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 5px;
+  max-width: 90%;
+  text-align: left;
+  background-color: white;
+}
+.product-cntr .item-block .image-cntr img {
+  max-width: 730px;
+  height: auto;
+}
+.product-cntr .item-block .label-text {
+  padding: 20px;
+  font-size: 120%;
+  font-weight: bold;
+}
+.product-cntr .item-block .desc-text {
+  padding: 20px;
+  padding-top: 0px;
+  font-size: 110%;
+}
+
+
+/* fix */
+.crm-container .crm-form-block .label {
+  color: #3E3E3E;
+}
