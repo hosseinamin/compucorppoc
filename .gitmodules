@@ -1,8 +1,4 @@
-[submodule "sites/all/themes/bootstrap"]
-	path = sites/all/themes/bootstrap
-	url = https://git.drupal.org/project/bootstrap.git
-	branch = 7.x-3.x
-[submodule "sites/all/modules/jquery_update"]
-	path = sites/all/modules/jquery_update
-	url = https://git.drupal.org/project/jquery_update.git
-	branch = 7.x-2.x
+[submodule "sites/all/modules/commerce_civicrm"]
+	path = sites/all/modules/commerce_civicrm
+	url = https://github.com/hosseinamin/commerce_civicrm.git
+	branch = 7.x-1.x
